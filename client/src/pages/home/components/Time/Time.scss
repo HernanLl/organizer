@@ -1,0 +1,21 @@
+.time {
+  color: white;
+  &__hour {
+    display: flex;
+    align-items: flex-end;
+    h1 {
+      font-size: 54px;
+      font-weight: 300;
+      margin: 0;
+    }
+    span {
+      margin: 8px;
+      align-self: flex-end;
+      font-weight: 500;
+    }
+  }
+  &__date {
+    margin: 8px;
+    font-weight: 500;
+  }
+}

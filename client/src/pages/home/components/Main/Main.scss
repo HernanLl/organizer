@@ -1,0 +1,15 @@
+@import "../../../../utils/variables.scss";
+
+.main {
+  flex: 1;
+  padding: 64px 0;
+  display: flex;
+  height: calc(100% - #{$height-weather-bar});
+  flex-direction: column;
+  background: rgba($color: #000000, $alpha: 0.2);
+
+  @media (max-width: 766px) {
+    height: 600px;
+    padding-top: 96px;
+  }
+}

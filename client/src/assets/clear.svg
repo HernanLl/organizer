@@ -1,0 +1,10 @@
+<svg id="Componente_1_3" data-name="Componente 1 – 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="230" viewBox="0 0 230 230">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd478"/>
+      <stop offset="1" stop-color="#fbcc75"/>
+    </radialGradient>
+  </defs>
+  <circle id="Elipse_2" data-name="Elipse 2" cx="115" cy="115" r="115" fill="#fbcc75"/>
+  <circle id="Elipse_3" data-name="Elipse 3" cx="106.5" cy="106.5" r="106.5" transform="translate(8 8)" fill="url(#radial-gradient)"/>
+</svg>

@@ -1,0 +1,31 @@
+.list-events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  max-height: 100%;
+  padding: 16px 64px;
+  overflow: auto;
+  position: relative;
+  margin: 16px 0;
+
+  h1 {
+    margin: 0;
+    font-weight: 100;
+  }
+  .event-container {
+    position: relative;
+  }
+  .list-events-connector {
+    position: absolute;
+    z-index: 2;
+    width: 5px;
+    left: 17.5px;
+    height: 16px;
+    bottom: 100%;
+    background: #455265;
+  }
+  @media (max-width: 766px) {
+    padding: 32px;
+  }
+}
