@@ -1,0 +1,12 @@
+.events__event {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+  .event__edit:active {
+    fill: #50d2fd !important;
+  }
+  .event__remove:active {
+    fill: #ff4c6a !important;
+  }
+}

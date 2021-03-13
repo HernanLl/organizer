@@ -18,36 +18,12 @@
     max-height: 90%;
     overflow: auto;
     background: white;
-  }
-  &__new-event {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    width: 100%;
-    padding-bottom: 32px;
-    input {
-      border: none;
-      padding: 8px 12px;
-      background: #eee;
-      margin: 4px 0;
-    }
-    button {
-      border: none;
-      padding: 8px 12px;
-      background: rgba(58, 61, 75, 1);
-      color: white;
-    }
-  }
-  &__event {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0 16px;
-    .event__edit:active {
-      fill: #50d2fd !important;
-    }
-    .event__remove:active {
-      fill: #ff4c6a !important;
+    h1 {
+      text-align: start;
+      padding: 0 16px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 24px;
     }
   }
 }

@@ -1,0 +1,32 @@
+.events__new-event {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+  padding-bottom: 32px;
+  .error {
+    padding: 0 16px;
+    padding-top: 16px;
+    color: red;
+  }
+  input {
+    border: none;
+    padding: 8px 12px;
+    background: #eee;
+    margin: 8px;
+    outline: none;
+    &:focus {
+      border: 1px solid rgba(58, 61, 75, 0.5);
+    }
+  }
+  button {
+    border: none;
+    padding: 8px 12px;
+    background: rgba(58, 61, 75, 1);
+    color: white;
+    outline: none;
+    &:active {
+      background: rgb(92, 96, 112);
+    }
+  }
+}
